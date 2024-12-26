@@ -1,10 +1,10 @@
-baseURL = "https://example.com"
+baseURL = "https://imagemagick.net.cn"
 
 languageCode = "zh-cn"
 DefaultContentLanguage = "zh"
 title = "ImageMagick中文手册"
 theme = "techdoc"
-
+imagemagick
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
