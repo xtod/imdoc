@@ -23,7 +23,7 @@ ImageMagick 的主要功能之一是它对脚本和自动化的支持。这允�
 
 总体而言，ImageMagick 是一款功能强大且用途广泛的软件套件，用于显示、转换和编辑图像文件。它对脚本和自动化的支持以及其他功能使其成为各种图像相关任务的宝贵工具。
 
-以下是 ImageMagick 可以为您做什么的几个示例：
+以下是 ImageMagick 可以为您做什么的一些示例：
 
 |-|-|
 |Animation	|create a GIF animation sequence from a group of images.|
