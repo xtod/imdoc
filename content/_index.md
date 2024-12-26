@@ -1,30 +1,11 @@
 ---
 date: 2017-10-19T15:26:15Z
-lastmod: 2019-10-26T15:26:15Z
-publishdate: 2018-11-23T15:26:15Z
-
-title: Home title
-description: Text about this post
+title: 首页
+description: "ImageMagick中文使用手册大全"
 images:
-- images/pexels-photo-196666.jpeg
+- images/wizard.png
 ---
 
-# Hugo Techdoc Theme
+# ImageMagick中文手册
 
-## The Techdoc is a Hugo Theme for technical documentation.
-
-## Features
-
-* Modern, Simple layout
-* Responsive web design
-* Documentation menu (Select [Menu style](getting-started/screenshot/#menu-style))
-* [Table Of Contents](sample/table-of-contents/) for the page (selective)
-* [Theme color](getting-started/screenshot/#theme-color)
-* [Edit link](getting-started/screenshot/#edit-link) to documentation repository
-* [Custom Shortcodes](sample/custom-shortcodes/)
-  * Code highlight with clipboard
-  * Alert panel
-  * Button
-* [Search Shortcode](sample/search-shortcode/) powered by [Algolia](https://www.algolia.com/)
-* Open Graph
-* Analytics with Google Analytics, Google Tag Manager
+ImageMagick® 是一个免费的开源软件套件，用于编辑和处理数字图像。它可用于创建、编辑、合成或转换位图图像，并支持多种文件格式，包括 JPEG、PNG、GIF、TIFF 和 Ultra HDR等。
