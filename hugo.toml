@@ -16,13 +16,13 @@ enableMissingTranslationPlaceholders = false
     # Source Code repository section
     description = "ImageMagick中文使用手册大全"
     github_repository = "https://github.com/xtod/imdoc"
-    version = "1.0.1"
+    version = "0.0.1"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/xtod/imdoc"
-    github_doc_repository_branch = "master"
-    github_doc_repository_path = ""
+#    github_doc_repository = "https://github.com/xtod/imdoc"
+#    github_doc_repository_branch = "master"
+#    github_doc_repository_path = ""
 
     # Analytic section
 #    google_analytics_id = "" # Your Google Analytics tracking id
@@ -76,16 +76,6 @@ enableMissingTranslationPlaceholders = false
         weight = 1
         identifier = 'home'
         pre = "<i class='fa fa-heart'></i>&nbsp;"
-
-    [[menu.main]]
-        name = "Twitter"
-        url = "https://twitter.com/dotbbq"
-        weight = 2
-        identifier = 'twitter'
-        pre = "<b>pre!</b> "
-        post = " <b>post!</b>"
-        [menu.main.params]
-          class = 'twitter-menu-item'
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
