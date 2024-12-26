@@ -25,7 +25,7 @@ ImageMagick 的主要功能之一是它对脚本和自动化的支持。这允�
 
 以下是 ImageMagick 可以为您做什么的几个示例：
 
-
+|-|-|
 |Animation	|create a GIF animation sequence from a group of images.|
 |Bilateral blur|	non-linear, edge-preserving, and noise-reducing smoothing filter.|
 |Color management|	accurate color management with color profiles or in lieu of-- built-in gamma compression or expansion as demanded by the colorspace.|
