@@ -15,26 +15,26 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "put your description"
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    description = "ImageMagick中文使用手册大全"
+    github_repository = "https://github.com/xtod/imdoc"
     version = "1.0.1"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_doc_repository = "https://github.com/xtod/imdoc"
     github_doc_repository_branch = "master"
     github_doc_repository_path = ""
 
     # Analytic section
-    google_analytics_id = "" # Your Google Analytics tracking id
-    tag_manager_container_id = "" # Your Google Tag Manager container id
-    google_site_verification = "" # Your Google Site Verification for Search Console
+#    google_analytics_id = "" # Your Google Analytics tracking id
+#    tag_manager_container_id = "" # Your Google Tag Manager container id
+#    google_site_verification = "" # Your Google Site Verification for Search Console
 
     # Open Graph and Twitter Cards settings section
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "ImageMagick中文手册"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
@@ -80,7 +80,7 @@ enableMissingTranslationPlaceholders = false
 
     [[menu.main]]
         name = "Twitter"
-        url = "https://twitter.com/thingsym"
+        url = "https://twitter.com/dotbbq"
         weight = 2
         identifier = 'twitter'
         pre = "<b>pre!</b> "
