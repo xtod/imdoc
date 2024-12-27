@@ -9,7 +9,7 @@ weight: 2
 ImageMagick 是可用于修改和操作图像的命令行工具的集合。以下是每个命令行工具的简短描述。单击程序名称可获取有关程序使用情况的详细信息以及更改程序行为方式的命令行选项列表。如果您刚刚熟悉 ImageMagick，请从 magick 程序开始。请务必仔细阅读 Anthony Thyssen 的教程，了解如何使用 ImageMagick 实用程序从命令行创建、编辑、编写或转换图像。
 |命令|说明|
 |-|-|
-|[magick](#magick)|在图像格式之间进行转换以及调整图像大小、模糊、裁剪、去斑点、抖动、绘制、翻转、加入、重新采样等等。|
+|[magick](/docs/guide/ImageMagick_command-line-tools/#magick)|在图像格式之间进行转换以及调整图像大小、模糊、裁剪、去斑点、抖动、绘制、翻转、加入、重新采样等等。|
 |magick-script|使用此脚本语言解释器在图像格式之间进行转换以及调整图像大小、模糊、裁剪、去斑、抖动、绘制、翻转、加入、重新采样等等。|
 
 还支持与 ImageMagick 版本 6 兼容的子命令：
@@ -32,3 +32,19 @@ ImageMagick 是可用于修改和操作图像的命令行工具的集合。以�
 使用 `magick` 命令在图像格式之间进行转换以及调整图像大小、模糊、裁剪、去斑点、抖动、绘制、翻转、加入、重新采样等等。有关如何构建 magick 命令的建议，请参见 命令行处理 ，或者查看下面的命令用法示例。
 
 我们在此处列出了 `magick` 命令的几个示例，以说明其有用性和易用性。首先，让我们将 JPEG 格式的图像转换为 PNG：
+
+```sh
+magick rose.jpg rose.png 
+```
+
+接下来，我们在将图像写入 PNG 格式之前减小图像大小：
+
+```sh
+magick rose.jpg -resize 50% rose.png 
+```
+
+<ul>
+  <img src="/image/rose.jpg" width="70" height="46" alt="rose" />
+  <img style="margin-top:13px; margin-bottom:13px;" src="/image/right.gif" width="20" height="20" alt="==>" />
+  <img style="margin-top:11px; margin-bottom:12px;" src="/image/rose.png" width="35" height="23" alt="rose" />
+</ul>
