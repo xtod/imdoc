@@ -1,6 +1,8 @@
 ---
 title: 下载安装ImageMagick
 slug: ImageMagick_Download_and_Installtion
+date: 2024-12-27
+weight:1
 ---
 # 下载安装ImageMagick
 
