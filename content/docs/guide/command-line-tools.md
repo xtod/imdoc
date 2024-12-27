@@ -73,7 +73,7 @@ identify rose.jpg rose.png
 magick identify rose.jpg rose.png 
 ```
 
-您可以在[ImageMagick使用示例](#ImageMagick使用示例)中找到使用 magick 的其他示例。
+您可以在[ImageMagick使用示例](/docs/usage/)中找到使用 magick 的其他示例。
 
 ## magick-script
 
@@ -93,7 +93,7 @@ magick identify rose.jpg rose.png
 -size 100x100 xc:red ( rose: -rotate -90 ) +append  -write show:
 ```
 
-您可以在[ImageMagick使用示例](#ImageMagick使用示例)中找到使用 `magick-script`的其他示例。
+您可以在[ImageMagick使用示例](/docs/usage/)中找到使用 `magick-script`的其他示例。
 
 ## magick animate
 
@@ -106,4 +106,4 @@ magick animate movie.gif
 ```sh
 magick animate *.jpg 
 ```
-您可以在[ImageMagick使用示例](#ImageMagick使用示例)中找到使用` animate`的其他示例。
+您可以在[ImageMagick使用示例](/docs/usage/)中找到使用` animate`的其他示例。
